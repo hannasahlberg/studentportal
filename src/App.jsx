@@ -25,10 +25,10 @@ function App() {
         element= {<CourseDetails/>}/>
       <Route path='/news' element={<NewsPost/>}/>
     </Routes>
-    
+    <Footer/>
     </BrowserRouter>
     </RegistrationProvider>
-    <Footer/>
+    
     </div>
 
       

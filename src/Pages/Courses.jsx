@@ -1,6 +1,6 @@
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Register from '../Components/Register';
+import Register from '../Components/RegistrationForms';
 
 export default function Courses(){
 

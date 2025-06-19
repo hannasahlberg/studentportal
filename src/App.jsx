@@ -6,7 +6,7 @@ import Courses from './Pages/Courses';
 import NewsPost from './Pages/NewsPost';
 import CourseDetails from './Pages/CourseDetails';
 import { RegistrationProvider } from './Contexts/RegistrationContext';
-import Register from './Components/Register';
+import Register from './Components/RegistrationForms';
 import Footer from './Components/Footer';
 
 function App() {

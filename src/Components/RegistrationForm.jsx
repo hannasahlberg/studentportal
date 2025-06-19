@@ -4,7 +4,7 @@ import { useRegistration } from '../Contexts/RegistrationContext';
 
 const courses = ['systemutvecklare', 'grafisk designer', 'frontendutvecklare'];
 
-export default function Register({ defaultCourse = ''}) {
+export default function RegistrationForm({ defaultCourse = ''}) {
   const { registerStudent } = useRegistration();
 
   const [formData, setFormData] = useState({

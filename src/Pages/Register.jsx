@@ -1,7 +1,7 @@
 import { useRegistration } from "../Contexts/RegistrationContext";
 import { List, ListItem, ListItemText } from '@mui/material';
 
-export default function RegistrationList() {
+export default function Register() {
     const { registrations } = useRegistration();
 
     return(

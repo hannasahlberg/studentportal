@@ -5,6 +5,7 @@ import RegistrationForm from "../Components/RegistrationForm";
 import image from "../assets/pexels-kobeboy-1516440.jpg";
 
 
+
 const courses = [
   {
     title: "Systemutvecklare",

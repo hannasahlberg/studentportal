@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import CourseCard from "../Components/CourseCard";
 import Register from "./Register";
 import RegistrationForm from "../Components/RegistrationForm";
+import image from "../assets/pexels-kobeboy-1516440.jpg";
 
 
 const courses = [
@@ -9,21 +10,21 @@ const courses = [
     title: "Systemutvecklare",
     description:
       "Lär dig att designa, bygga och underhålla mjukvarusystem med fokus på programmering, databaser och systemarkitektur.",
-    image: "../assets/pexels-kobeboy-1516440.jpg",
+    image: {image},
     link: "/courses/systemutvecklare",
   },
   {
     title: "Grafisk Design",
     description:
       "Utforska visuell kommunikation genom färg, form och typografi. Du lär dig skapa design för både tryck och digitala medier.",
-    image: "../assets/pexels-kobeboy-1516440.jpg",
+    image: {image},
     link: "/courses/grafisk designer",
   },
   {
     title: "Frontendutvecklare",
     description:
       "Bygg moderna webbgränssnitt med HTML, CSS och JavaScript. Fokus ligger på användarupplevelse och responsiv design.",
-    image: "../assets/pexels-kobeboy-1516440.jpg",
+    image: {image},
     link: "/courses/frontendutvecklare",
   },
 ];

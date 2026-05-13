@@ -1,4 +1,7 @@
 import { Card, Container, Row, Col } from "react-bootstrap";
+import image from "../assets/pexels-kobeboy-1516440.jpg";
+import image2 from "../assets/pexels-buro-millennial-636760-1438072.jpg";
+import image3 from "../assets/pexels-olly-3762800.jpg";
 
 
 export default function Home(){
@@ -14,7 +17,9 @@ export default function Home(){
         <Row>
         <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
         <Card style={{width: '300px'}}>
-            <Card.Img style = {{width: '300px'}} src="./assets/pexels-kobeboy-1516440.jpg"></Card.Img>
+            <Card.Img 
+            style = {{width: '300px'}}
+            image = {image}></Card.Img>
             <Card.Body>
                 <Card.Title>Gemenskap</Card.Title>
                 <Card.Text>Träffa dina skolkamrater och skapa minnen tillsammans!</Card.Text>
@@ -23,7 +28,7 @@ export default function Home(){
         </Col>
         <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
         <Card style={{width: '300px'}}>
-            <Card.Img style = {{width: '300px'}} src="./assets/pexels-buro-millennial-636760-1438072.jpg"></Card.Img>
+            <Card.Img style = {{width: '300px'}} image = {image2}></Card.Img>
             <Card.Body>
                 <Card.Title>Framtid</Card.Title>
                 <Card.Text>Skapa din framtid hos oss! </Card.Text>
@@ -32,7 +37,7 @@ export default function Home(){
         </Col>
         <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
         <Card style={{width: '300px'}}>
-            <Card.Img style = {{width: '300px'}} src="./assets/pexels-olly-3762800.jpg"></Card.Img>
+            <Card.Img style = {{width: '300px'}} image = {image3}></Card.Img>
             <Card.Body>
                 <Card.Title>Trygghet</Card.Title>
                 <Card.Text>Våra utbildningar är CSN-berättigade!</Card.Text>

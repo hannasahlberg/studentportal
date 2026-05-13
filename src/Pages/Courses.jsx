@@ -11,21 +11,21 @@ const courses = [
     title: "Systemutvecklare",
     description:
       "Lär dig att designa, bygga och underhålla mjukvarusystem med fokus på programmering, databaser och systemarkitektur.",
-    image: {image},
+    image: image,
     link: "/courses/systemutvecklare",
   },
   {
     title: "Grafisk Design",
     description:
       "Utforska visuell kommunikation genom färg, form och typografi. Du lär dig skapa design för både tryck och digitala medier.",
-    image: {image},
+    image: image,
     link: "/courses/grafisk designer",
   },
   {
     title: "Frontendutvecklare",
     description:
       "Bygg moderna webbgränssnitt med HTML, CSS och JavaScript. Fokus ligger på användarupplevelse och responsiv design.",
-    image: {image},
+    image: image,
     link: "/courses/frontendutvecklare",
   },
 ];

@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import NewsPost from "../Components/NewsPost";
+import image from "../assets/pexels-olly-3769021 (1).jpg";
+import image2 from "../assets/pexels-vantha-thang-1224068-2513993.jpg";
+import image3 from "../assets/pexels-sevenstormphotography-439391.jpg";
 
 export default function News() {
   const [data, setData] = useState(null);
@@ -36,7 +39,7 @@ export default function News() {
         <Row className="justify-content-center">
           <Col md={3}>
             <Card className="mb-5 mx-auto" style={{ width: "300px" }}>
-              <Card.Img src="../assets/pexels-olly-3769021 (1).jpg" />
+              <Card.Img src= {image} />
               <Card.Body>
                 <Card.Title>Tiden efter examen</Card.Title>
                 <Card.Text>
@@ -45,7 +48,7 @@ export default function News() {
               </Card.Body>
             </Card>
             <Card className="mb-5 mx-auto" style={{ width: "300px" }}>
-              <Card.Img src="../assets/pexels-vantha-thang-1224068-2513993.jpg" />
+              <Card.Img src= {image2} />
               <Card.Body>
                 <Card.Title>Vägen till stipendiet</Card.Title>
                 <Card.Text>
@@ -54,7 +57,7 @@ export default function News() {
               </Card.Body>
             </Card>
             <Card className="mb-5 mx-auto" style={{ width: "300px" }}>
-              <Card.Img src="../assets/pexels-sevenstormphotography-439391.jpg" />
+              <Card.Img src= {image3} />
               <Card.Body>
                 <Card.Title>Nya studentlägenheter</Card.Title>
                 <Card.Text>

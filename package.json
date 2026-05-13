@@ -1,6 +1,6 @@
 {
   "name": "studentportal",
-  "homepage": "https://hannasahlberg.github.io/studentportal/", 
+  "homepage": "https://hannasahlberg.github.io/studentportal", 
   "private": true,
   "version": "0.0.0",
   "type": "module",

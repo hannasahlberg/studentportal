@@ -9,7 +9,7 @@ const courses = [
     title: "Systemutvecklare",
     description:
       "Lär dig att designa, bygga och underhålla mjukvarusystem med fokus på programmering, databaser och systemarkitektur.",
-    image: "./assets/pexels-kobeboy-1516440.jpg",
+    image: `${process.env.PUBLIC_URL}/assets/pexels-kobeboy-1516440.jpg`,
     link: "/courses/systemutvecklare",
   },
   {

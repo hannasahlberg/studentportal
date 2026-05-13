@@ -36,7 +36,7 @@ export default function Home(){
         </Col>
         <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
         <Card style={{width: '300px'}}>
-            <Card.Img style = {{width: '300px'}} src ="../assets/pexels-olly-3762800.jpg"/>
+            <Card.Img style = {{width: '300px'}} src = {image3}/>
             <Card.Body>
                 <Card.Title>Trygghet</Card.Title>
                 <Card.Text>Våra utbildningar är CSN-berättigade!</Card.Text>

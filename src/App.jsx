@@ -15,7 +15,7 @@ function App() {
     <>
     <div className="d-flex flex-column min-vh-100">
     <RegistrationProvider>
-    <BrowserRouter basename='/Studentportal'>
+    <BrowserRouter basename='/studentportal'>
     <MyNavbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>

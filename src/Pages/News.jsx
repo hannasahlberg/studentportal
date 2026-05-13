@@ -45,7 +45,7 @@ export default function News() {
               </Card.Body>
             </Card>
             <Card className="mb-5 mx-auto" style={{ width: "300px" }}>
-              <Card.Img src="./assets/pexels-vantha-thang-1224068-2513993.jpg" />
+              <Card.Img src=".../assets/pexels-vantha-thang-1224068-2513993.jpg" />
               <Card.Body>
                 <Card.Title>Vägen till stipendiet</Card.Title>
                 <Card.Text>

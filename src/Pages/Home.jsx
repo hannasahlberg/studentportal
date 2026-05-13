@@ -18,7 +18,7 @@ export default function Home(){
         <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
         <Card style={{width: '300px'}}>
             <Card.Img 
-            style = {{width: '300px'}} src= {image}
+            style = {{width: '300px'}} src = {image}
             ></Card.Img>
             <Card.Body>
                 <Card.Title>Gemenskap</Card.Title>
@@ -28,7 +28,7 @@ export default function Home(){
         </Col>
         <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
         <Card style={{width: '300px'}}>
-            <Card.Img style = {{width: '300px'}} src= {image2}></Card.Img>
+            <Card.Img style = {{width: '300px'}} src = {image2}></Card.Img>
             <Card.Body>
                 <Card.Title>Framtid</Card.Title>
                 <Card.Text>Skapa din framtid hos oss! </Card.Text>
@@ -37,7 +37,7 @@ export default function Home(){
         </Col>
         <Col xs={12} md={4} className="d-flex justify-content-center mb-4">
         <Card style={{width: '300px'}}>
-            <Card.Img style = {{width: '300px'}} src= {image3}></Card.Img>
+            <Card.Img style = {{width: '300px'}} src = {image3}></Card.Img>
             <Card.Body>
                 <Card.Title>Trygghet</Card.Title>
                 <Card.Text>Våra utbildningar är CSN-berättigade!</Card.Text>
